@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-    has many :produce_offerings
+    has_many :produce_offerings
 end
